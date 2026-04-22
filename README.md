@@ -34,38 +34,18 @@ Still, if you wish to use NuGet for the dependencies instead of relying on local
 
 - Take note of each of the references we've included:
     - Atalasoft.DotImage.dll
-    - Atalasoft.DotImage.Dicom.dll
-    - Atalasoft.DotImage.Dwg.dll
-    - Atalasoft.DotImage.Heif.dll
-    - Atalasoft.DotImage.Jbig2.dll
-    - Atalasoft.DotImage.Jpeg2000.dll
     - Atalasoft.DotImage.Lib.dll
-    - Atalasoft.DotImage.Ocr.GlyphReader.dll
-    - Atalasoft.DotImage.Ocr.OmniPage.dll
-    - Atalasoft.DotImage.Ocr.Tesseract5.dll
     - Atalasoft.DotImage.Pdf.dll
     - Atalasoft.DotImage.PdfDoc.Bridge.dll
     - Atalasoft.DotImage.PdfReader.dll
-    - Atalasoft.DotImage.Raw.dll
     - Atalasoft.DotImage.WinControls.dll
     - Atalasoft.PdfDoc.dll
     - Atalasoft.Shared.dll
 - Remove those referneces
 - Open the NuGet Package Manger from `Tools -> NuGet Package Manager -> Manage NuGet Packages for this Solution`
 - Browse for and install  Atalasoft.DotImage.WinControls.x64 - It will pull in DotImage Document Imaging (the base SDK) and our windows controls and shared dll
-- Browse for and install Atalasoft.Ocr.x64 - Required to bring in the base OCR and Tesseract dependencies
-- Browse for and install Atalasoft.Ocr.Tesseractt5.x64 - Required to bring in Tesseract5Engine
-- Browse for and install Atalasoft.Ocr.Tesseract5.Resources - Required to bring in the Tesseract5 OCR Resources
-- Browse for and install Atalasoft.Ocr.GlyphReader.x64 -  Required if you wish to use GlyphReaderEngine
-- Browse for and install Atalasoft.Ocr.GlyphReader.Resources -  Required if you wish to use GlyphReaderEngine
-- Browse for and install Atalasoft.Ocr.OmniPage.x64. Required if you wish to use OmniPageEngine
-- Browse for and install Atalasoft.Dwg.x64. (optional if you wish to have support for DWG and other CADD files)
-- Browse for and install Atalasoft.Dicom.x64. (optional if you wish to have support for Dicom files)
-- Browse for and install Atalasoft.Jbig2.x64. (optional if you wish to have support for Jbig2 files)
-- Browse for and install Atalasoft.Jpeg2000.x64. (optional if you wish to have support for Jpeg2000 files)
 - Browse for and install Atalasoft.Pdf.x64  to bring in the PdfEncoder
 - Browse for and install Atalasoft.PdfReader.x64. (optional if you wish to have support for PDF files)
-- Browse for and install Atalasoft.Raw.x64. (optional if you wish to have support for RAW files)
 
 
 ## Downloading source
